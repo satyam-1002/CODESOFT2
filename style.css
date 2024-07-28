@@ -1,0 +1,109 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50; /* Green background */
+    color: #fff;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* Gold color */
+}
+
+/* Section styles */
+section {
+    padding: 4em 0;
+    margin-top: 60px; /* Adjust for fixed header */
+}
+
+.about, .education, .skills, .certificates, .projects, .contact {
+    background: #f4f4f4;
+    margin-bottom: 2em;
+}
+
+.about h2, .education h2, .skills h2, .certificates h2, .projects h2, .contact h2 {
+    color: #4CAF50;
+}
+
+.education-item, .skills-item, .project-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover, .skills-item:hover, .project-item:hover {
+    transform: translateY(-10px);
+}
+
+.certificates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.certificates li {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0.5em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact styles */
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
